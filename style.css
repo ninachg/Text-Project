@@ -3,8 +3,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;     
+    background-color: rgba(45, 31, 19, 0.93);
 
 }
+
 h1{
     font-size: 200px;
     color: white;
@@ -13,6 +15,12 @@ h1{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Domaine Display', sans-serif;
+    animation-name:spacing;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state:running;
 }
 h2{
     font-size: 175px;
@@ -136,7 +144,7 @@ img.mocha-image {
 
 @keyframes spacing {
     0%{
-       
+        opacity: 0;
     }
     30%{
         letter-spacing: 25px;
@@ -144,8 +152,10 @@ img.mocha-image {
     85%{
         letter-spacing: 8px;
     }
+    100% {
+        opacity: 1;
 
-       
+    }
   
 }
 @media screen and (max-width: 768px) {
