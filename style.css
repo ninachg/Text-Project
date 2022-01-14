@@ -3,10 +3,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;     
-    background-color: rgba(45, 31, 19, 0.93);
+  
 
 }
-
+body{
+    background-color: rgba(45, 31, 19, 0.93);
+}
 h1{
     font-size: 200px;
     color: white;
