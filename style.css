@@ -128,10 +128,10 @@ body {
 }
 .grid>div:hover {
     padding: 15px;
-    background-color:rgba(255, 255, 255, 0.93);
+    background-color:rgb(255, 187, 0);
     color: rgb(45, 31, 19);
     transition-property: background-color height;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.5s;
 
