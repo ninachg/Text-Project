@@ -86,10 +86,12 @@ a:hover{
 }
 .flexnox-item-1 {
     min-height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
     
 }
 .flexnox-item-2{
     min-height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 body {
     animation: fade 4s;

@@ -30,17 +30,14 @@ body{
   }
 
 .grid {
-    display: grid;
-    grid-gap: 10px;
+    display: flex;
+    grid-gap: 80px;
     grid-template-columns: 500px 500px 500px 500px;
     grid-template-rows:  500px 500px;
     justify-content: center;
     padding: 50px;
     margin-left: 10px;
     margin-right: 10px;
-
-   
-
 }
 
 .grid > div {
@@ -64,7 +61,7 @@ body{
     transition-delay: 0.5s;
 
 }
-img.mocha-image {
+img.coffee-image {
     display:block;
     max-height: 300px;
     max-width: 300px;
