@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+body{
+
+     background-image: url(/Images/coffee-bean-on-white-background-260nw-370254257.jpg);
+        
+  }
+  h1{
+    font-size: 100px;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Domaine Display', sans-serif;
+    animation-name:spacing;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state:running;
+  }
+
+  h3{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-rows:  500px 500px;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   
+
+}
+
+.grid > div {
+    padding: 15px;
+    border-radius: 50%;
+    display:grid;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30PX;
+    color: white;
+  
+}
+.grid>div:hover {
+    padding: 15px;
+    background-color:rgb(180, 117, 28);
+    color: rgb(45, 31, 19);
+    transition-property: background-color height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+
+}
+img.mocha-image {
+    display:block;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto
+
+}
+
+@keyframes spacing {
+    0%{
+        opacity: 0;
+    }
+    30%{
+        letter-spacing: 25px;
+    }
+    85%{
+        letter-spacing: 8px;
+    }
+    100% {
+        opacity: 1;
+
+    }
+  
+}
+@media screen and (max-width: 768px) {
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+
+}
+.grid > div{
+    padding: 15px;
+    background-color: rgb(45, 31, 19);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+img.mocha-image{
+    max-height: 175px;
+    max-width: 175px;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
+}

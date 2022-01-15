@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+body{
+    background-image: url(/Images/coffee-bean-on-white-background-260nw-370254257.jpg);
+}
+div{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 75px;
+    margin-top: 10%;
+    animation-name:fadein;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-play-state:running;
+}
+h3{
+    font-family: 'Domaine Display', sans-serif;
+}
+.column {
+    display: flex;
+
+}
+.flexbox-coffee-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+   
+}
+.flexbox-coffee-item-1{
+    width: 700px;
+    height: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(187,115, 33);
+    font-size: 30px;
+    text-align: center;
+    border: solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-coffee-item-2{
+    width: 700px;
+    height: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    border: solid white;
+  
+
+}
+ul{
+    text-align: left;
+    margin: 15%;
+    font-size: 50px;
+    align-items: center;
+}
+img.mocha-image {
+    display:block;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 400px;
+    max-width: 500px
+ }
+ 
+ .slide-right ul {
+    animation: 5s slide-right;
+ 
+ }
+ 
+ @keyframes slide-right {
+     0%{
+        margin-left: -500px;
+        opacity: 0%;
+     }
+ 
+     50%{
+        margin-left: 0%;
+        opacity: 50%;
+     }
+     100%{
+        margin-left: 0%;
+        opacity: 100%;
+     }
+  }
+  @keyframes fadein {
+    0%{
+       opacity: 0%;
+    }
+
+    50%{
+       opacity: 50%;
+    }
+    100%{
+       opacity: 100%;
+    }
+ }
