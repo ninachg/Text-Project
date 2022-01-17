@@ -63,8 +63,6 @@ h1{
     animation-play-state:running;
     animation-iteration-count: infinite;
     
-    
-    
 }
 
 .flexbox-roast-item-2{
@@ -107,29 +105,34 @@ img.roast-image {
  .back-button-container {
     display: flex;
     justify-content: center;
+    left:50%;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    animation-name:fadein ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    margin-bottom: 30%;
 }
 
 .back-button{
-    width: 250px;
-    height: 75px;
-    border: solid white;
-    border-radius: 40px;
-    border: 6px solid rgb(187, 115, 33);
-    border-radius: 40px;
-    margin: 50px;
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(187,115, 33);
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    color: white;   
 }
 
-.back-button:hover{
+a{
+    color: rgb(187,115, 33);
+    text-decoration: none;
+}
+a:hover{
     color: white;
-    border: 10px solid rgb(255, 255, 255);
 }
 
  @keyframes slide-right {
@@ -171,7 +174,6 @@ img.roast-image {
     }
     100% {
         opacity: 1;
-
     }
   }
   @keyframes bounce {
@@ -214,8 +216,13 @@ img.roast-image {
         width: 700px;
         margin-top: 0%;
     }
+    .back-button-container{
+        position: absolute;
+        margin-top: 60%;
+    }
+    /*help*/
     #logo{
-        position:absolute;
+        position:fixed;
         margin: auto;
         display: flex;
         justify-content: center;

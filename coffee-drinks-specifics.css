@@ -14,7 +14,7 @@ h1{
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 100px;
-    margin-top: 10%;
+    margin-top: 12%;
     animation-name:fadein;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -115,14 +115,10 @@ img.coffee-image {
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-direction: normal;
-
+    margin-bottom: 30%;
 }
 
 .back-button{
-    width: 250px;
-    height: 75px;
-    border-radius: 40px;
-    border-radius: 40px;
     margin: 50px;
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(187,115, 33);
@@ -130,12 +126,14 @@ img.coffee-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-   
-   
 }
 
-.back-button:hover{
+a{
+    color: rgb(187,115, 33);
+    text-decoration: none;
+
+}
+a:hover{
     color: white;
 
 }
@@ -219,21 +217,23 @@ img.coffee-image {
         display: flex;
         margin-left: 15%;
         margin-top: 0%;
+        margin-bottom: 10%;
+ 
+        /*help*/
     }
     #logo{
-        position:fixed;
         margin: auto;
         display: flex;
         justify-content: center;
     }
-    .back-button{
+    .back-button-container{
        position: absolute;
-       top: 95%;
+       margin-top: 60%;
+      
     }
     ul{
        align-items:flex-start;
- 
-       
+    } 
 }
 /**.flexbox-container {
     display: flex;

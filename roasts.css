@@ -81,34 +81,7 @@ img.roast-image {
 img.roast-image:hover {
     animation-play-state: paused;
 }
-.back-button-container {
-    display: flex;
-    justify-content: center;
-    align-content:center;
-}
 
-.back-button{
-    width: 250px;
-    height: 75px;
-    border: solid white;
-    border-radius: 40px;
-    border: 6px solid rgb(187, 115, 33);
-    border-radius: 40px;
-    margin: 50px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(187,115, 33);
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;   
-}
-
-.back-button:hover{
-    color: white;
-    border: 10px solid rgb(255, 255, 255);
-}
 
 @keyframes fade {
     0% {
